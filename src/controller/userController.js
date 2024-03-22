@@ -11,7 +11,7 @@ const Msg = require('../helper/messages'); // Import module for storing messages
 
 const bcrypt = require('bcryptjs'); // Import bcrypt for password hashing and comparison
 
-// Function to register a new user
+// Function to register a new User
 exports.userRegister = async (req, res) => {
     try {
         // Extract user details from request body
