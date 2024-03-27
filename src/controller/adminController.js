@@ -8,7 +8,7 @@ const CryptoJS = require('crypto-js'); // Import CryptoJS module for cryptograph
 const sendMail = require('../helper/email'); // Import function for sending emails
 const bcrypt = require('bcryptjs'); // Import bcryptjs module for password hashing and comparison
 
-// Function to handle Admin login
+// Function To Handle Admin Login
 exports.adminLogin = async (req, res) => {
     try {
         let { email, password } = req.body; // Destructure email and password from request body
